@@ -1,0 +1,124 @@
+# -----------------------------------------------------------------------------
+# Python Specific
+# -----------------------------------------------------------------------------
+
+# Byte-code files
+*.pyc
+__pycache__/
+.Python/
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.manifest
+*.mo
+*.pot
+*.seed
+*.pyo
+
+# Virtual environment
+# Recommended naming conventions for virtual environments
+venv/
+.venv/
+env/
+.env/
+.conda/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.cache/
+htmlcov/
+.nox/
+.tox/
+
+# MyPy and other type checkers
+.mypy_cache/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.virtual_documents/
+
+# Sphinx documentation build
+docs/_build/
+
+# IDE-specific files (Python specific)
+# PyCharm
+.idea/             # PyCharm project files (user-specific)
+# VS Code (Python specific, often included in general .vscode/ but good to be explicit)
+.vscode/           # VS Code settings (user-specific)
+# For more specific VS Code ignores, you might add:
+# .vscode/*.log
+# .vscode/settings.json # If user-specific, otherwise typically tracked
+# .vscode/launch.json   # Often user-specific, otherwise typically tracked
+
+# Compiled extensions
+*.so
+*.dylib
+*.dll
+*.pyd
+
+# IPython history
+.ipython/
+.python_history
+
+# Database files
+*.sqlite3
+*.db
+*.sql
+
+# -----------------------------------------------------------------------------
+# macOS Specific
+# -----------------------------------------------------------------------------
+
+.DS_Store
+.localized          # Hidden file for folder localization
+.Spotlight-V100     # Spotlight metadata
+.Trashes            # Trash folder
+__MACOSX            # Archive metadata
+._* # AppleDouble files (resource forks)
+.fseventsd          # FSEvents daemon data
+.VolumeIcon.icns    # Custom folder icons
+.apdisk             # Apple Time Machine backup metadata
+
+# -----------------------------------------------------------------------------
+# General / Common Development (Cross-OS)
+# -----------------------------------------------------------------------------
+
+# Logs and temporary files
+*.log
+logs/
+log/
+tmp/
+*.tmp
+*.bak
+*~                  # Backup files created by various editors (e.g., Vim)
+.#* # Emacs lock files (e.g., .#filename)
+*.swp               # Vim swap files
+*.swo               # Vim swap files
+*.sublime-workspace # Sublime Text workspace files (user-specific)
+*.vscode-test       # VS Code testing related files
+
+# Environment variables and sensitive data
+.env                # Local environment variables
+.env.* # e.g., .env.local, .env.development
+secrets.py          # Python specific secret files
+config.ini          # If it contains credentials
+credentials.json    # Often contains credentials
+*.key               # Private keys
+*.pem               # Certificate files
+
+# Generated files
+*.zip
+*.tar.gz
+*.rar
